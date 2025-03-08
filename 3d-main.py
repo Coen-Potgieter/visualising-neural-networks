@@ -35,7 +35,10 @@ CMAP = good_cmaps[162]
 
 FUNC_IDX = 0
 STRUCT = [2, 10, 5, 1]
-LR = 0.01
+# # STRUCT = [2, 50, 25, 10, 5, 1]
+# # STRUCT = [2, 100, 75, 50, 25, 10, 5, 1]
+# STRUCT = [2, 500, 250, 100, 50, 25, 10, 1]
+LR = 0.001
 
 def all_funcs(x, y, idx):
 
@@ -55,7 +58,10 @@ def all_funcs(x, y, idx):
         r = 20
         return random.choice([-1, 1]) * np.sqrt(pow(r, 2) - pow(y-25, 2) - pow(x-25, 2)) + 25
 
-    funcs = [func1, func2, cone, circle]
+    def sine_cosine(x, y):
+        return np.sin(0.5*x) * np.cos(0.5*y) + np.sin(0.1*x) * np.cos(0.1*y)
+
+    funcs = [func1, func2, cone, circle, sine_cosine]
     return funcs[idx](x, y)
 
 def linspace(start, end, num=100):
