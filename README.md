@@ -63,6 +63,29 @@ If the network is given only two data points, it will connect them using a sigmo
     <img src="Assets/demo/sigmoid.gif" width="700" alt="Demo">
 </p>
 
+### 3. Model Architecture
+
+Model Architecture here refers to the complexity of our neural network. The level of complexity has various effects (some subtle, others more pronounced) which we explore below.
+
+1. **Predicting Ability**
+    - Let’s start with the obvious: a more complex model can approximate more complex functions. The comparison below clearly demonstrates this:
+    - **Function Index** = 10 | **Simple Vs Complex**
+
+<p style="display: flex; align-items:center">
+    <img src="Assets/demo/simple-model.gif" width="400" alt="Demo">
+    <img src="Assets/demo/complex-model.gif" width="400" alt="Demo">
+</p>
+
+
+2. **Granularity**
+    - This is the more nuanced one, when we increase the complexity we can see the predictions becoming more "granular". Not entirely sure how to explain this one:
+    - **Function Index** = 10 | **Simple Vs Complex**
+
+<p style="display: flex; align-items:center">
+    <img src="Assets/demo/simple-model-line.gif" width="400" alt="Demo">
+    <img src="Assets/demo/complex-model-line.gif" width="400" alt="Demo">
+</p>
+
 ### 2D
 
 
@@ -78,18 +101,6 @@ If the network is given only two data points, it will connect them using a sigmo
     <img src="Assets/demo/parabola-3d.gif" width="500" alt="Demo">
 </p>
 
-
-<p align="center">
-    <img src="Assets/demo/sigmoid.gif" width="500" alt="Demo">
-</p>
-
-<p align="center">
-    <img src="Assets/demo/sum-of-sins.gif" width="500" alt="Demo">
-</p>
-
-<p align="center">
-    <img src="Assets/demo/porabola.gif" width="500" alt="Demo">
-</p>
 
 ## Setup ⚙️
 

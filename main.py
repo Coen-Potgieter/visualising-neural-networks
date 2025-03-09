@@ -34,8 +34,10 @@ BG = BLACK
 LR = 0.001
 
 struct_choice = {
-    0: [1, 10, 5, 3, 1],    # simple
-    1: [1, 100, 75, 50, 25, 1]  # Complex
+    # 0: [1, 10, 5, 3, 1],    # simple
+    0: [1, 10, 3, 1],    # simple
+    # 1: [1, 100, 75, 50, 25, 1]  # Complex
+    # 1: [1, 200, 150, 100, 75, 50, 25, 1]  # Complex
 }
 STRUCT = struct_choice[0]
 
