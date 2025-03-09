@@ -18,6 +18,33 @@ What's more is its applicability. Our entire world, generally, is made of differ
 
 ## Results 📸
 
+This section is about various discoveries or observations while playing around with this program. However if you just want to look at some cool looking things then enjoy the gifs :)
+
+### Configurable Hyperparameters
+
+- Here I am speaking about the hyperparameters that make a very prominent visual impact, these hyperparameters include:
+    1. **Learning Rate**
+    2. **Sample Size**
+    3. **Model Architecture**
+
+### Learning Rate
+
+Adjusting the learning rate will influences the rate of convergence (of course), However as shown below, a high learning rate results in erratic fluctuations in predictions, while a lower learning rate ensures a smooth and steady convergence toward the true function.
+
+- **Function Index** = 0 | **Learning Rate** = 0.1
+
+<p align="center">
+    <img src="Assets/demo/sum-of-sins.gif" width="500" alt="Demo">
+</p>
+
+<p align="center">
+    <img src="Assets/demo/sum-of-sins.gif" width="600" alt="Demo">
+</p>
+
+<p align="center">
+    <img src="Assets/demo/sum-of-sins.gif" width="700" alt="Demo">
+</p>
+
 ### 2D
 
 
