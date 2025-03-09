@@ -31,17 +31,17 @@ LINE_COL, DOT_COL = styles[style_choice][0], styles[style_choice][1]
 BG = BLACK
 
 # ---------------------- MLP performance ----------------- #
-LR = 0.0005
+LR = 0.001
 
 struct_choice = {
     0: [1, 10, 5, 3, 1],    # simple
     1: [1, 100, 75, 50, 25, 1]  # Complex
 }
-STRUCT = struct_choice[1]
+STRUCT = struct_choice[0]
 
 # ---------------------- Function to approximate ----------------- #
 SAMPLE_SIZE = 200
-FUNC_IDX = 8
+FUNC_IDX = 0
 # 0: Straight Line
 # 1: Parabola
 # 2: Sin

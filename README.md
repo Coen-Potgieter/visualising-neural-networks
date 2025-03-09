@@ -27,7 +27,7 @@ This section is about various discoveries or observations while playing around w
     2. **Sample Size**
     3. **Model Architecture**
 
-### Learning Rate
+### 1. Learning Rate
 
 Adjusting the learning rate will influences the rate of convergence (of course), However as shown below, a high learning rate results in erratic fluctuations in predictions, while a lower learning rate ensures a smooth and steady convergence toward the true function.
 
@@ -41,6 +41,24 @@ Adjusting the learning rate will influences the rate of convergence (of course),
 
 <p align="center">
     <img src="Assets/demo/sum-of-sins-low-lr.gif" width="700" alt="Demo">
+</p>
+
+### 2. Sample Size
+
+Again, our neural network requires samples from the target function in order to approximate it. Thus, the number of random samples taken from the target function determines how much the neural network knows about and limits what it can learn. 
+
+When we set the number of samples to something reasonably sparse we see that the neural network makes reasonable shortcuts or assumptions about what the true function may be. This is not too interesting. What was quite eye opening for me was when we went to the complete extreme of sample sparsity. If the neural network only has two points available, it will choose to connect those points using a sigmoid function. It is not a coincident that my my implementation of these neural nets uses the sigmoid function as its activations. Absolutely gorgeous.
+
+- **Function Index** = 0 | **Sample Size** = 200
+
+<p align="center">
+    <img src="Assets/demo/line.gif" width="700" alt="Demo">
+</p>
+
+- **Function Index** = 0 | **Sample Size** = 2
+
+<p align="center">
+    <img src="Assets/demo/sigmoid.gif" width="700" alt="Demo">
 </p>
 
 ### 2D
