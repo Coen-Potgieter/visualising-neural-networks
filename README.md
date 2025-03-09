@@ -31,18 +31,16 @@ This section is about various discoveries or observations while playing around w
 
 Adjusting the learning rate will influences the rate of convergence (of course), However as shown below, a high learning rate results in erratic fluctuations in predictions, while a lower learning rate ensures a smooth and steady convergence toward the true function.
 
-- **Function Index** = 0 | **Learning Rate** = 0.1
+- **Function Index** = 8 | **Learning Rate** = 0.08
 
 <p align="center">
-    <img src="Assets/demo/sum-of-sins.gif" width="500" alt="Demo">
+    <img src="Assets/demo/sum-of-sins-high-lr.gif" width="700" alt="Demo">
 </p>
 
-<p align="center">
-    <img src="Assets/demo/sum-of-sins.gif" width="600" alt="Demo">
-</p>
+- **Function Index** = 8 | **Learning Rate** = 0.0005
 
 <p align="center">
-    <img src="Assets/demo/sum-of-sins.gif" width="700" alt="Demo">
+    <img src="Assets/demo/sum-of-sins-low-lr.gif" width="700" alt="Demo">
 </p>
 
 ### 2D
