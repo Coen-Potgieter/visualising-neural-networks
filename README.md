@@ -18,7 +18,7 @@ What's more is its applicability. Our entire world, generally, is made of differ
 
 ## Results 📸
 
-This section is about various discoveries or observations while playing around with this program. However if you just want to look at some cool looking things then enjoy the gifs :)
+This section is about various discoveries or observations while playing around with this program. But if you're just here for something to look at then enjoy the GIFs :) 
 
 ### Configurable Hyperparameters
 
@@ -29,7 +29,7 @@ This section is about various discoveries or observations while playing around w
 
 ### 1. Learning Rate
 
-Adjusting the learning rate will influences the rate of convergence (of course), However as shown below, a high learning rate results in erratic fluctuations in predictions, while a lower learning rate ensures a smooth and steady convergence toward the true function.
+Adjusting the learning rate will influences the rate of convergence (of course). However as shown below, a high learning rate results in erratic fluctuations in predictions, while a lower learning rate ensures a smooth and steady convergence toward the true function.
 
 - **Function Index** = 8 | **Learning Rate** = 0.08
 
@@ -45,9 +45,11 @@ Adjusting the learning rate will influences the rate of convergence (of course),
 
 ### 2. Sample Size
 
-Again, our neural network requires samples from the target function in order to approximate it. Thus, the number of random samples taken from the target function determines how much the neural network knows about and limits what it can learn. 
+Again, our neural network requires samples from the target function in order to approximate it. Thus, the number of random samples taken from this target function directly impacts how much the model knows about and constrains what it can infer. 
 
-When we set the number of samples to something reasonably sparse we see that the neural network makes reasonable shortcuts or assumptions about what the true function may be. This is not too interesting. What was quite eye opening for me was when we went to the complete extreme of sample sparsity. If the neural network only has two points available, it will choose to connect those points using a sigmoid function. It is not a coincident that my my implementation of these neural nets uses the sigmoid function as its activations. Absolutely gorgeous.
+With a reasonably sparse set of samples, the network makes logical approximations of the true function. However, the real surprise comes when we push sample sparsity to the extreme.
+
+If the network is given only two data points, it will connect them using a sigmoid curve. This is no coincidence as my implementation of these neural networks use sigmoid activations, absolutely gorgeous. 
 
 - **Function Index** = 0 | **Sample Size** = 200
 
