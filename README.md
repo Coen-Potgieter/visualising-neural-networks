@@ -21,7 +21,10 @@ What's more is its applicability. Our entire world, generally, is made of differ
 ### 2D
 
 <p align="center">
-  <img src="Assets/demo.gif" width="500" alt="Demo">
+  <img src="Assets/demo/parabola-3d.gif" width="500" alt="Demo">
+  <img src="Assets/demo/funcs-2d-batch-1.png" width="500" alt="Demo">
+  <img src="Assets/demo/funcs-2d-batch-2.png" width="500" alt="Demo">
+  <img src="Assets/demo/funcs-2d-batch-3.png" width="500" alt="Demo">
 </p>
 
 
