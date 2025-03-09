@@ -31,17 +31,17 @@ LINE_COL, DOT_COL = styles[style_choice][0], styles[style_choice][1]
 BG = BLACK
 
 # ---------------------- MLP performance ----------------- #
-LR = 0.0004
+LR = 0.01
 
 struct_choice = {
     0: [1, 10, 5, 3, 1],    # simple
     1: [1, 100, 75, 50, 25, 1]  # Complex
 }
-STRUCT = struct_choice[1]
+STRUCT = struct_choice[0]
 
 # ---------------------- Function to approximate ----------------- #
-SAMPLE_SIZE = 200
-FUNC_IDX = 3
+SAMPLE_SIZE = 2
+FUNC_IDX = 8
 # 0: Straight Line
 # 1: Parabola
 # 2: Sin
@@ -65,7 +65,7 @@ def all_funcs(x, idx):
         return (x-25)*2 + 10
 
     def sin(x):
-        return math.sin(x*0.3) + 10
+        return math.sin(x*0.4) + 10
 
     def parabola(x):
         return 0.1*(x-25)**2 + 10

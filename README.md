@@ -33,6 +33,17 @@ What's more is its applicability. Our entire world, generally, is made of differ
 </p>
 
 
+<p align="center">
+    <img src="Assets/demo/sigmoid.gif" width="500" alt="Demo">
+</p>
+
+<p align="center">
+    <img src="Assets/demo/sum-of-sins.gif" width="500" alt="Demo">
+</p>
+
+<p align="center">
+    <img src="Assets/demo/porabola.gif" width="500" alt="Demo">
+</p>
 
 ## Setup ⚙️
 
