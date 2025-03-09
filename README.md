@@ -79,28 +79,30 @@ Model Architecture here refers to the complexity of our neural network. The leve
 
 2. **Granularity**
     - This is the more nuanced one, when we increase the complexity we can see the predictions becoming more "granular". Not entirely sure how to explain this one:
-    - **Function Index** = 10 | **Simple Vs Complex**
+    - **Function Index** = 0 | **Simple Vs Complex**
 
 <p style="display: flex; align-items:center">
     <img src="Assets/demo/simple-model-line.gif" width="400" alt="Demo">
     <img src="Assets/demo/complex-model-line.gif" width="400" alt="Demo">
 </p>
 
-### 2D
+### The Question of Dimensionality
 
-
-<p style="display: flex; flex-direction: column;">
-    <img src="Assets/demo/funcs-2d-batch-1.png" width="400" alt="Demo">
-    <img src="Assets/demo/funcs-2d-batch-2.png" width="400" alt="Demo">
-    <p align="center">
-        <img src="Assets/demo/funcs-2d-batch-3.png" width="400" alt="Demo">
-    </p>
-</p>
+At this point I hope I have convinced you that neural networks are pretty good at approximating functions. A person may question the power of neural networks saying that it cannot generalise to higher dimensions. However, this is could not be further from the truth, in fact its ability to generalise to higher dimensions is actually a key strength of the neural network architecture. If you're reading this you probably already know this, I just wanted a reason to make nice spinning 3D graphs...
 
 <p align="center">
-    <img src="Assets/demo/parabola-3d.gif" width="500" alt="Demo">
+    <img src="Assets/demo/parabola-3d.gif" width="700" alt="Demo">
 </p>
 
+*More to Come...*
+
+### Predicting an Image
+
+I might as well add this here as well. I setup a neural network to predict the greyscale intensity of a pixel given the row and column of that pixel. It would then change its prediction to move close to the ground truth. The ground truth in question is a city skyline. Thus every pixel you see is the output of a neural network trying to emulate some image and this is why it is a static blur that slowly comes into focus. 
+
+<p align="center">
+    <img src="Assets/demo/skyline.gif" width="700" alt="Demo">
+</p>
 
 ## Setup ⚙️
 

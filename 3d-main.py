@@ -34,10 +34,8 @@ good_cmaps = {
 CMAP = good_cmaps[162]
 
 FUNC_IDX = 0
-STRUCT = [2, 10, 5, 1]
-# # STRUCT = [2, 50, 25, 10, 5, 1]
-# # STRUCT = [2, 100, 75, 50, 25, 10, 5, 1]
-# STRUCT = [2, 500, 250, 100, 50, 25, 10, 1]
+# STRUCT = [2, 10, 5, 1]
+STRUCT = [2, 50, 25, 10, 5, 1]
 LR = 0.002
 
 def all_funcs(x, y, idx):
