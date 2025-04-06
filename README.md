@@ -1,5 +1,5 @@
 
-# Visualising Neural Networks Learn <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Artificial_neural_network.svg/1920px-Artificial_neural_network.svg.png" width="30" alt="Neural Network Icon">
+# Visualising Neural Networks Learn 🧠🎓
 
 
 ## Overview 📌
